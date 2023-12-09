@@ -7062,12 +7062,31 @@ data["BlackfathomDeepsRaid"] = {
 	LoadDifficulty = RAID10_DIFF,
 	GetForVersion({15, 24, 32}, {19, 22, 24}),
 	items = {
+		{ -- BFDBaronAquanis
+			name = AL["Baron Aquanis"],
+			npcID = 12876,
+		    Level = 999,
+			DisplayIDs = {{110}},
+			AtlasMapFile = {"CL_BlackfathomDeepsB", "CL_BlackfathomDeepsEnt"},
+			[NORMAL_DIFF] = {
+				{ 1,  211852 }, -- Handwraps of Befouled Water
+				{ 2,  209828 }, -- Sub-Zero Pauldrons
+				{ 4,  209421 }, -- Cord of Aquanis
+				{ 6,  209676 }, -- Shoulderguards of Crushing Depths
+				{ 7,  204804 }, -- Hydraxian Bangles
+				{ 16,  204807 }, -- Fathomblade
+				{ 17,  209590 }, -- Cracked Water Globe
+				{ 19,  209825 }, -- Droplet Choker
+				{ 20,  209422 }, -- High Tide Choker
+				{ 21,  209423 }, -- Flowing Scarf
+				{ 22,  209677 }, -- Loop of Swift Currents
+			},
+		},
 		{ -- BFDGhamoora
 			name = AL["Ghamoo-ra"],
 			npcID = 4887,
 		    Level = 999,
 			DisplayIDs = {{5027}},
-			AtlasMapBossID = 1,
 			[NORMAL_DIFF] = {
 				{ 1,  209675 }, -- Clamweave Tunic
 				{ 2,  209432 }, -- Ghamoo-ra's Cinch
@@ -7086,7 +7105,6 @@ data["BlackfathomDeepsRaid"] = {
 			npcID = 4831,
 		    Level = 999,
 			DisplayIDs = {{4979}},
-			AtlasMapBossID = 3,
 			[NORMAL_DIFF] = {
 				{ 1,  211842 }, -- Rakkamar's Tattered Thinking Cap
 				{ 2,  209679 }, -- Azshari Novice's Shoulderpads
@@ -7106,7 +7124,6 @@ data["BlackfathomDeepsRaid"] = {
 			npcID = 6243,
 		    Level = 999,
 			DisplayIDs = {{1773}},
-			AtlasMapBossID = 5,
 			[NORMAL_DIFF] = {
 				{ 1,  209683 }, -- Twilight Invoker's Shawl
 				{ 2,  209671 }, -- Twilight Invoker's Robes
@@ -7140,7 +7157,6 @@ data["BlackfathomDeepsRaid"] = {
 			npcID = 12902,
 		    Level = 999,
 			DisplayIDs = {{1773}},
-			AtlasMapBossID = 6,
 			[NORMAL_DIFF] = {
 				{ 1,  209683 }, -- Twilight Invoker's Shawl
 				{ 2,  209671 }, -- Twilight Invoker's Robes
@@ -7166,34 +7182,12 @@ data["BlackfathomDeepsRaid"] = {
 				{ 27,  209575 }, -- Carved Driftwood Icon
 			},
 		},
-		{ -- BFDBaronAquanis
-			name = AL["Baron Aquanis"],
-			npcID = 12876,
-		    Level = 999,
-			DisplayIDs = {{110}},
-			AtlasMapFile = {"CL_BlackfathomDeepsB", "CL_BlackfathomDeepsEnt"},
-			AtlasMapBossID = 7,
-			[NORMAL_DIFF] = {
-				{ 1,  211852 }, -- Handwraps of Befouled Water
-				{ 2,  209828 }, -- Sub-Zero Pauldrons
-				{ 4,  209421 }, -- Cord of Aquanis
-				{ 6,  209676 }, -- Shoulderguards of Crushing Depths
-				{ 7,  204804 }, -- Hydraxian Bangles
-				{ 16,  204807 }, -- Fathomblade
-				{ 17,  209590 }, -- Cracked Water Globe
-				{ 19,  209825 }, -- Droplet Choker
-				{ 20,  209422 }, -- High Tide Choker
-				{ 21,  209423 }, -- Flowing Scarf
-				{ 22,  209677 }, -- Loop of Swift Currents
-			},
-		},
 		{ -- BFDTwilightLordKelris
 			name = AL["Twilight Lord Kelris"],
 			npcID = 4832,
 		    Level = 999,
 			DisplayIDs = {{4939}},
 			AtlasMapFile = {"CL_BlackfathomDeepsB", "CL_BlackfathomDeepsEnt"},
-			AtlasMapBossID = 8,
 			[NORMAL_DIFF] = {
 				{ 1,  211492 }, -- Kelris's Satchel
 				{ 2,  209561 }, -- Rod of the Ancient Sleepwalker
@@ -7223,7 +7217,6 @@ data["BlackfathomDeepsRaid"] = {
 			npcID = 4829,
 			Level = 999,
 			DisplayIDs = {{2837}},
-			AtlasMapBossID = 10,
 			AtlasMapFile = {"CL_BlackfathomDeepsB", "CL_BlackfathomDeepsEnt"},
 			[NORMAL_DIFF] = {
 				{ 1,  209562 }, -- Deadly Strike of the Hydra
