@@ -185,6 +185,7 @@ data["Alchemy"] = {
 				{ 16, 11460 }, --Elixir of Detect Undead
 				{ 17, 3453 }, --Elixir of Detect Lesser Invisibility
 				{ 19, 7179 }, --Elixir of Water Breathing
+				{ 21, 426607}, --Elixir of Coalesced Regret (Season of Discovery)
 			},
 		},
 		{
@@ -350,6 +351,7 @@ data["Blacksmithing"] = {
 				{ 6, 3504 }, --Green Iron Shoulders / 32
 				{ 7, 3330 }, --Silvered Bronze Shoulders / 25
 				{ 8, 3328 }, --Rough Bronze Shoulders / 22
+				{ 10, 427063}, --Mantle of the Second War / 30
 			},
 			[PLATE_DIFF] = {
 				{ 1, 24141 }, --Darksoul Shoulders / 65
@@ -373,14 +375,15 @@ data["Blacksmithing"] = {
 				{ 7, 3511 }, --Golden Scale Cuirass / 40
 				{ 8, 9916 }, --Steel Breastplate / 40
 				{ 9, 3508 }, --Green Iron Hauberk / 36
-				{ 10, 9813 }, --Barbaric Iron Breastplate / 32
-				{ 11, 2675 }, --Shining Silver Breastplate / 29
-				{ 12, 2673 }, --Silvered Bronze Breastplate / 26
-				{ 13, 2670 }, --Rough Bronze Cuirass / 23
-				{ 14, 8367 }, --Ironforge Breastplate / 20
-				{ 15, 2667 }, --Runed Copper Breastplate / 18
-				{ 16, 3321 }, --Copper Chain Vest / 10
-				{ 17, 12260 }, --Rough Copper Vest / 7
+				{ 10, 429348 }, --Shifting Silver Breastplate / 30
+				{ 11, 9813 }, --Barbaric Iron Breastplate / 32
+				{ 12, 2675 }, --Shining Silver Breastplate / 29
+				{ 13, 2673 }, --Silvered Bronze Breastplate / 26
+				{ 14, 2670 }, --Rough Bronze Cuirass / 23
+				{ 15, 8367 }, --Ironforge Breastplate / 20
+				{ 16, 2667 }, --Runed Copper Breastplate / 18
+				{ 17, 3321 }, --Copper Chain Vest / 10
+				{ 18, 12260 }, --Rough Copper Vest / 7
 			},
 			[PLATE_DIFF] = {
 				{ 1, 28242 }, --Icebane Breastplate / 80
@@ -530,8 +533,9 @@ data["Blacksmithing"] = {
 				{ 9, 16641 }, --Dense Sharpening Stone / 45
 				{ 10, 9918 }, --Solid Sharpening Stone / 35
 				{ 11, 2674 }, --Heavy Sharpening Stone / 25
-				{ 12, 2665 }, --Coarse Sharpening Stone / 15
-				{ 13, 2660 }, --Rough Sharpening Stone / 5
+				{ 12, 430397}, --Blackfathom Sharpening Stone / 25
+				{ 13, 2665 }, --Coarse Sharpening Stone / 15
+				{ 14, 2660 }, --Rough Sharpening Stone / 5
 
 				{ 24, 16640 }, --Dense Weightstone / 45
 				{ 25, 9921 }, --Solid Weightstone / 35
@@ -579,7 +583,8 @@ data["Enchanting"] = {
 				{ 4, 25127 }, --Lesser Mana Oil / 260
 				{ 5, 25126 }, --Lesser Wizard Oil / 210
 				{ 6, 25125 }, --Minor Mana Oil / 160
-				{ 7, 25124 }, --Minor Wizard Oil / 55
+				{ 7, 430409 }, --Blackfathom Mana Oil
+				{ 8, 25124 }, --Minor Wizard Oil / 55
 			}
 		},
 		{
@@ -1002,6 +1007,12 @@ data["Engineering"] = {
 				{ 30, 12895 }, --Plans: Inlaid Mithril Cylinder / 40
 			}
 		},
+		{
+			name = AL["Season of Discovery"],
+			[NORMAL_DIFF] = {
+				{1, 424641}, --Shredder Autosalvage Unit / 1
+			}
+		},
 	}
 }
 
@@ -1143,13 +1154,14 @@ data["Tailoring"] = {
 				{ 8, 12082 }, --Shadoweave Boots / 48
 				{ 9, 12073 }, --Black Mageweave Boots / 46
 				{ 10, 3860 }, --Boots of the Enchanter / 35
-				{ 11, 3856 }, --Spider Silk Slippers / 28
-				{ 12, 3855 }, --Spidersilk Boots / 25
-				{ 13, 3847 }, --Red Woolen Boots / 20
-				{ 14, 2401 }, --Woolen Boots / 19
-				{ 15, 3845 }, --Soft-soled Linen Boots / 16
-				{ 16, 2386 }, --Linen Boots / 13
-				{ 17, 12045 }, --Simple Linen Boots / 9
+				{ 11, 429351 }, --Extraplanar Spidersilk Boots / 30
+				{ 12, 3856 }, --Spider Silk Slippers / 28
+				{ 13, 3855 }, --Spidersilk Boots / 25
+				{ 14, 3847 }, --Red Woolen Boots / 20
+				{ 15, 2401 }, --Woolen Boots / 19
+				{ 16, 3845 }, --Soft-soled Linen Boots / 16
+				{ 17, 2386 }, --Linen Boots / 13
+				{ 18, 12045 }, --Simple Linen Boots / 9
 			}
 		},
 		{
@@ -1249,7 +1261,8 @@ data["Tailoring"] = {
 				{ 8, 3863 }, --Spider Belt / 36 / 200
 				{ 9, 8772 }, --Crimson Silk Belt / 35 / 195
 				{ 10, 8766 }, --Azure Silk Belt / 35 / 195
-				{ 11, 8776 }, --Linen Belt / 9 / 50
+				{ 11, 3866 }, --Stylish Red Shirt / 22 / 135
+				{ 12, 8776 }, --Linen Belt / 9 / 50
 			}
 		},
 		{
@@ -1257,7 +1270,8 @@ data["Tailoring"] = {
 			[NORMAL_DIFF] = {
 				{ 1, 28209 }, --Glacial Wrists / 80 / 315
 				{ 2, 22759 }, --Flarecore Wraps / 64 / 320
-				{ 3, 3841 }, --Green Linen Bracers / 12 / 85
+				{ 3, 428425}, --Phoenix Bindings / 30 / 125
+				{ 4, 3841 }, --Green Linen Bracers / 12 / 85
 			}
 		},
 		{
@@ -1418,19 +1432,21 @@ data["Leatherworking"] = {
 				{ 11, 22711 }, --Shadowskin Gloves / 40 / 210
 				{ 12, 7156 }, --Guardian Gloves / 38 / 210
 				{ 13, 21943 }, --Gloves of the Greatfather / 38 / 210
-				{ 14, 3771 }, --Barbaric Gloves / 30 / 170
-				{ 15, 9149 }, --Heavy Earthen Gloves / 29 / 170
-				{ 16, 3764 }, --Hillman's Leather Gloves / 29 / 170
-				{ 17, 9148 }, --Pilferer's Gloves / 28 / 165
-				{ 18, 3770 }, --Toughened Leather Gloves / 27 / 160
-				{ 19, 9146 }, --Herbalist's Gloves / 27 / 160
-				{ 20, 3765 }, --Dark Leather Gloves / 26 / 155
-				{ 21, 9145 }, --Fletcher's Gloves / 25 / 150
-				{ 22, 9074 }, --Nimble Leather Gloves / 24 / 145
-				{ 23, 9072 }, --Red Whelp Gloves / 24 / 145
-				{ 24, 7954 }, --Deviate Scale Gloves / 21 / 130
-				{ 25, 2164 }, --Fine Leather Gloves / 15 / 105
-				{ 26, 3756 }, --Embossed Leather Gloves / 13 / 85
+				{ 14, 429869 }, --Void-Touched Leather Gauntlets / 30 / 160
+				{ 15, 429354 }, --Void-Touched Leather Gloves / 30 / 160
+				{ 16, 3771 }, --Barbaric Gloves / 30 / 170
+				{ 17, 9149 }, --Heavy Earthen Gloves / 29 / 170
+				{ 18, 3764 }, --Hillman's Leather Gloves / 29 / 170
+				{ 19, 9148 }, --Pilferer's Gloves / 28 / 165
+				{ 20, 3770 }, --Toughened Leather Gloves / 27 / 160
+				{ 21, 9146 }, --Herbalist's Gloves / 27 / 160
+				{ 22, 3765 }, --Dark Leather Gloves / 26 / 155
+				{ 23, 9145 }, --Fletcher's Gloves / 25 / 150
+				{ 24, 9074 }, --Nimble Leather Gloves / 24 / 145
+				{ 25, 9072 }, --Red Whelp Gloves / 24 / 145
+				{ 26, 7954 }, --Deviate Scale Gloves / 21 / 130
+				{ 27, 2164 }, --Fine Leather Gloves / 15 / 105
+				{ 28, 3756 }, --Embossed Leather Gloves / 13 / 85
 			},
 			[MAIL_DIFF] = {
 				{ 1, 28223 }, --Icy Scale Gauntlets / 80 / 320
@@ -1442,6 +1458,7 @@ data["Leatherworking"] = {
 				{ 7, 10542 }, --Tough Scorpid Gloves / 45 / 245
 				{ 8, 10619 }, --Dragonscale Gauntlets / 45 / 245
 				{ 9, 10509 }, --Turtle Scale Gloves / 41 / 225
+				
 			},
 		},
 		{

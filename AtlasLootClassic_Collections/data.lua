@@ -930,7 +930,13 @@ data["Mounts"] = {
 		{ -- Reputation
 			name = AL["Reputation"],
 			[ALLIANCE_DIFF] = {
-				{ 1, 13086 }, -- Reins of the Winterspring Frostsaber
+				{ 1, "f890rep5" },
+				{ 2, 211498 }, --Trainee's Sentinel Nightsaber
+				{ 16, 13086 }, -- Reins of the Winterspring Frostsaber
+			},
+			[HORDE_DIFF] = {
+				{ 1, "f889rep5" },
+				{ 2, 211499 }, --Trainee's Outrider Wolf
 			}
 		},
 		{

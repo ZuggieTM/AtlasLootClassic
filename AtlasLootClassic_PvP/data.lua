@@ -446,15 +446,16 @@ data["WarsongGulch"] = {
 			[ALLIANCE_DIFF] = {
 				{ 1, "f890rep5" },
 				{ 2, "INV_Box_01", nil, "20 - 29", nil }, -- WSGRepFriendly2029
-				{ 3,  21568 }, -- Rune of Duty
-				{ 4,  21566 }, -- Rune of Perfection
-				{ 5,  19062 }, -- Warsong Gulch Field Ration
-				{ 6,  19068 }, -- Warsong Gulch Silk Bandage
-				{ 8, "INV_Box_01", nil, "30 - 39", nil }, -- WSGRepFriendly3039
-				{ 9,  19061 }, -- Warsong Gulch Iron Ration
-				{ 10,  19067 }, -- Warsong Gulch Mageweave Bandage
-				{ 11,  17349 }, -- Superior Healing Draught
-				{ 12, 17352 }, -- Superior Mana Draught
+				{ 3, 211498 }, --Trainee's Sentinel Nightsaber
+				{ 4,  21568 }, -- Rune of Duty
+				{ 5,  21566 }, -- Rune of Perfection
+				{ 6,  19062 }, -- Warsong Gulch Field Ration
+				{ 7,  19068 }, -- Warsong Gulch Silk Bandage
+				{ 9, "INV_Box_01", nil, "30 - 39", nil }, -- WSGRepFriendly3039
+				{ 10,  19061 }, -- Warsong Gulch Iron Ration
+				{ 11,  19067 }, -- Warsong Gulch Mageweave Bandage
+				{ 12,  17349 }, -- Superior Healing Draught
+				{ 13, 17352 }, -- Superior Mana Draught
 				{ 17, "INV_Box_01", nil, "40 - 49", nil }, -- WSGRepFriendly4049
 				{ 18,  21567 }, -- Rune of Duty
 				{ 19,  21565 }, -- Rune of Perfection
@@ -464,15 +465,16 @@ data["WarsongGulch"] = {
 			[HORDE_DIFF] = {
 				{ 1, "f889rep5" },
 				{ 2, "INV_Box_01", nil, "20 - 29", nil }, -- WSGRepFriendly2029
-				{ 3, 21568 }, -- Rune of Duty
-				{ 4, 21566 }, -- Rune of Perfection
-				{ 5, 19062 }, -- Warsong Gulch Field Ration
-				{ 6, 19068 }, -- Warsong Gulch Silk Bandage
-				{ 8, "INV_Box_01", nil, "30 - 39", nil }, -- WSGRepFriendly3039
-				{ 9, 19061 }, -- Warsong Gulch Iron Ration
-				{ 10, 19067 }, -- Warsong Gulch Mageweave Bandage
-				{ 11, 17349 }, -- Superior Healing Draught
-				{ 12, 17352 }, -- Superior Mana Draught
+				{ 3, 211499 }, --Trainee's Outrider Wolf
+				{ 4, 21568 }, -- Rune of Duty
+				{ 5, 21566 }, -- Rune of Perfection
+				{ 6, 19062 }, -- Warsong Gulch Field Ration
+				{ 7, 19068 }, -- Warsong Gulch Silk Bandage
+				{ 9, "INV_Box_01", nil, "30 - 39", nil }, -- WSGRepFriendly3039
+				{ 10, 19061 }, -- Warsong Gulch Iron Ration
+				{ 11, 19067 }, -- Warsong Gulch Mageweave Bandage
+				{ 12, 17349 }, -- Superior Healing Draught
+				{ 13, 17352 }, -- Superior Mana Draught
 				{ 17, "INV_Box_01", nil, "40 - 49", nil }, -- WSGRepFriendly4049
 				{ 18, 21567 }, -- Rune of Duty
 				{ 19, 21565 }, -- Rune of Perfection
