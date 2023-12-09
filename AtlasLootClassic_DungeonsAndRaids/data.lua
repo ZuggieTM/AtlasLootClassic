@@ -289,12 +289,23 @@ local BFD_QUEST_REWARDS = {
 	specialType = "quest",
 	IgnoreAsSource = true,
 	[HORDE_DIFF] = {
-		{ 1, 211467, [QUEST_EXTRA_ITTYPE] = "Allegiance to the Old Gods" }, -- Band of the Iron Fist
-		{ 2, 211468 }, -- Frayed Chestnut Mantle
-		{ 3, 211461 }, -- Inscribed Gravestone Scepter
-		{ 4, 211460 }, -- Ancient Arctic Buckler
+		{ 1, 211467, [QUEST_EXTRA_ITTYPE] = 78927 }, -- Band of the Iron Fist
+		{ 2, 211468, [QUEST_EXTRA_ITTYPE] = 78927 }, -- Frayed Chestnut Mantle
+		{ 4, 211461, [QUEST_EXTRA_ITTYPE] = 78922 }, -- Inscribed Gravestone Scepter
+		{ 5, 211460, [QUEST_EXTRA_ITTYPE] = 78922 }, -- Ancient Arctic Buckler
+		{ 16, 211451, [QUEST_EXTRA_ITTYPE] = 78917 }, -- Acolyte's Void Pearl
+		{ 17, 211449, [QUEST_EXTRA_ITTYPE] = 78917 }, -- Avenger's Void Pearl
+		{ 18, 211450, [QUEST_EXTRA_ITTYPE] = 78917 }, -- Invoker's Void Pearl
 	},
-
+	[ALLIANCE_DIFF] = {
+		{ 1, 211463, [QUEST_EXTRA_ITTYPE] = 78926 }, -- Chittering Beetle Clasps
+		{ 2, 211464, [QUEST_EXTRA_ITTYPE] = 78926 }, -- Worn Prelacy Cape
+		{ 4, 211465, [QUEST_EXTRA_ITTYPE] = 78925 }, -- Nimbus Boots of Insight
+		{ 5, 211466, [QUEST_EXTRA_ITTYPE] = 78925 }, -- Tender's Heartwood Girdle
+		{ 16, 211461, [QUEST_EXTRA_ITTYPE] = 78921 }, -- Inscribed Gravestone Scepter
+		{ 17, 211460, [QUEST_EXTRA_ITTYPE] = 78921 }, -- Ancient Arctic Buckler
+		{ 19, 211462, [QUEST_EXTRA_ITTYPE] = 78923 }, -- Ever-Sustaining Ring
+	}
 }
 
 data["Ragefire"] = {
