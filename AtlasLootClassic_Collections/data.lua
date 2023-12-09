@@ -505,7 +505,7 @@ data["SeasonOfDiscoverySets"] = {
 	TableType = SET_ITTYPE,
 	items = {
 		{ -- BFD Tier sets
-			name = format(AL["Blackfathom Deeps Sets"]),
+			name = format(AL["BFD Sets"]),
 			[NORMAL_DIFF] = {
 				{ 1, 1570 }, -- Twilight Invoker's Vestments
                 { 5, 1578 }, -- Blackfathom Slayer's Leather
