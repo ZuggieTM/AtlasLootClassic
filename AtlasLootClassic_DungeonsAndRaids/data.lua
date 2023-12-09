@@ -274,12 +274,27 @@ local BFD_SET = {
 	LoadDifficulty = RAID10_DIFF,
 	TableType = SET_ITTYPE,
 	IgnoreAsSource = true,
+	CoinTexture = "HORDE",
 	[RAID10_DIFF] = {
 		{ 1, 1570 }, -- Twilight Invoker's Vestments
 		{ 3, 1578 }, -- Blackfathom Slayer's Leather
 		{ 5, 1579 }, -- Blackfathom Elementalist's Hide
 		{ 7, 1577 }, -- Blackfathom Avenger's Mail
 	},
+}
+local BFD_QUEST_REWARDS = {
+	name = AL["BFD Quest Rewards"],
+	ExtraList = true,
+	LoadDifficulty = RAID10_DIFF,
+	specialType = "quest",
+	IgnoreAsSource = true,
+	[HORDE_DIFF] = {
+		{ 1, 211467, [QUEST_EXTRA_ITTYPE] = "Allegiance to the Old Gods" }, -- Band of the Iron Fist
+		{ 2, 211468 }, -- Frayed Chestnut Mantle
+		{ 3, 211461 }, -- Inscribed Gravestone Scepter
+		{ 4, 211460 }, -- Ancient Arctic Buckler
+	},
+
 }
 
 data["Ragefire"] = {
@@ -6991,7 +7006,7 @@ data["Naxxramas"] = {
 				{ 4,  22821 }, -- Doomfinger
 				{ 5,  22819 }, -- Shield of Condemnation
 				{ 6,  22802 }, -- Kingsfall
-				{ 7,  23056 }, -- Hammer of the Twisting Nether
+				{ 7,  23056 }, -- Hammer of the Twisting Nether1
 				{ 8,  23054 }, -- Gressil, Dawn of Ruin
 				{ 9,  23577 }, -- The Hungering Cold
 				{ 10, 22798 }, -- Might of Menethil
@@ -7050,7 +7065,7 @@ data["BlackfathomDeepsRaid"] = {
 		{ -- BFDGhamoora
 			name = AL["Ghamoo-ra"],
 			npcID = 4887,
-		    Level = 999
+		    Level = 999,
 			DisplayIDs = {{5027}},
 			AtlasMapBossID = 1,
 			[NORMAL_DIFF] = {
@@ -7069,7 +7084,7 @@ data["BlackfathomDeepsRaid"] = {
 		{ -- BFDLadySarevess
 			name = AL["Lady Sarevess"],
 			npcID = 4831,
-		    Level = 999
+		    Level = 999,
 			DisplayIDs = {{4979}},
 			AtlasMapBossID = 3,
 			[NORMAL_DIFF] = {
@@ -7089,7 +7104,7 @@ data["BlackfathomDeepsRaid"] = {
 		{ -- BFDGelihast
 			name = AL["Gelihast"],
 			npcID = 6243,
-		    Level = 999
+		    Level = 999,
 			DisplayIDs = {{1773}},
 			AtlasMapBossID = 5,
 			[NORMAL_DIFF] = {
@@ -7123,7 +7138,7 @@ data["BlackfathomDeepsRaid"] = {
 		{ -- BFDLorgusJett
 			name = AL["Lorgus Jett"],
 			npcID = 12902,
-		    Level = 999
+		    Level = 999,
 			DisplayIDs = {{1773}},
 			AtlasMapBossID = 6,
 			[NORMAL_DIFF] = {
@@ -7154,7 +7169,7 @@ data["BlackfathomDeepsRaid"] = {
 		{ -- BFDBaronAquanis
 			name = AL["Baron Aquanis"],
 			npcID = 12876,
-		    Level = 999
+		    Level = 999,
 			DisplayIDs = {{110}},
 			AtlasMapFile = {"CL_BlackfathomDeepsB", "CL_BlackfathomDeepsEnt"},
 			AtlasMapBossID = 7,
@@ -7175,7 +7190,7 @@ data["BlackfathomDeepsRaid"] = {
 		{ -- BFDTwilightLordKelris
 			name = AL["Twilight Lord Kelris"],
 			npcID = 4832,
-		    Level = 999
+		    Level = 999,
 			DisplayIDs = {{4939}},
 			AtlasMapFile = {"CL_BlackfathomDeepsB", "CL_BlackfathomDeepsEnt"},
 			AtlasMapBossID = 8,
@@ -7206,7 +7221,7 @@ data["BlackfathomDeepsRaid"] = {
 		{ -- BFDAkumai
 			name = AL["Aku'mai"],
 			npcID = 4829,
-			Level = ,
+			Level = 999,
 			DisplayIDs = {{2837}},
 			AtlasMapBossID = 10,
 			AtlasMapFile = {"CL_BlackfathomDeepsB", "CL_BlackfathomDeepsEnt"},
@@ -7230,22 +7245,7 @@ data["BlackfathomDeepsRaid"] = {
 				{ 26,  209688 }, -- Bael Modan Blunderbuss
 			},
 		},
-		{ -- BFDTrash
-			name = AL["Trash"],
-			ExtraList = true,
-			[NORMAL_DIFF] = {
-				{ 1,  1486 }, -- Tree Bark Jacket
-				{ 2,  3416 }, -- Martyr's Chain
-				{ 3,  1491 }, -- Ring of Precision
-				{ 4,  3414 }, -- Crested Scepter
-				{ 5,  1454 }, -- Axe of the Enforcer
-				{ 6,  1481 }, -- Grimclaw
-				{ 7,  2567 }, -- Evocator's Blade
-				{ 8,  3413 }, -- Doomspike
-				{ 9,  3417 }, -- Onyx Claymore
-				{ 10, 3415 }, -- Staff of the Friar
-				{ 11, 2271 }, -- Staff of the Blessed Seer
-			},
-		},
+		BFD_SET,
+		BFD_QUEST_REWARDS
 	},
 }
