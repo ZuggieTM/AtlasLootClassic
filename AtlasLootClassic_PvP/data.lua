@@ -788,15 +788,16 @@ data["Armor"] = {
 
 				{ 16,  15196 }, -- Private's Tabard
 
-				{ 18, 16342 }, -- Sergeant's Cape
-				{ 19, 18441 }, -- Sergeant's Cape
-				{ 20, 18440 }, -- Sergeant's Cape
+				{ 18, 213087 }, -- Sergeant's Cloak
+				{ 19, 16342 }, -- Sergeant's Cape
+				{ 20, 18441 }, -- Sergeant's Cape
+				{ 21, 18440 }, -- Sergeant's Cape
 
-				{ 22, 18445 }, -- Sergeant Major's Plate Wristguards
-				{ 23, 18447 }, -- Sergeant Major's Plate Wristguards
+				{ 23, 18445 }, -- Sergeant Major's Plate Wristguards
+				{ 24, 18447 }, -- Sergeant Major's Plate Wristguards
 
-				{ 25, 18454 }, -- Sergeant Major's Dragonhide Armsplints
-				{ 26, 18455 }, -- Sergeant Major's Dragonhide Armsplints
+				{ 26, 18454 }, -- Sergeant Major's Dragonhide Armsplints
+				{ 27, 18455 }, -- Sergeant Major's Dragonhide Armsplints
 
 			},
 			[HORDE_DIFF] = {
@@ -817,15 +818,16 @@ data["Armor"] = {
 
 				{ 16,  15197 }, -- Scout's Tabard
 
-				{ 18, 18461 }, -- Sergeant's Cloak
-				{ 19, 16341 }, -- Sergeant's Cloak
-				{ 20, 18427 }, -- Sergeant's Cloak
+				{ 18, 213088 }, -- Sergeant's Cloak
+				{ 19, 18461 }, -- Sergeant's Cloak
+				{ 20, 16341 }, -- Sergeant's Cloak
+				{ 21, 18427 }, -- Sergeant's Cloak
 
-				{ 22, 16532 }, -- First Sergeant's Mail Wristguards
-				{ 23, 18432 }, -- First Sergeant's Mail Wristguards
+				{ 23, 16532 }, -- First Sergeant's Mail Wristguards
+				{ 24, 18432 }, -- First Sergeant's Mail Wristguards
 
-				{ 25, 18434 }, -- First Sergeant's Dragonhide Armguards
-				{ 26, 18436 }, -- First Sergeant's Dragonhide Armguards
+				{ 26, 18434 }, -- First Sergeant's Dragonhide Armguards
+				{ 27, 18436 }, -- First Sergeant's Dragonhide Armguards
 
 			},
 		},
