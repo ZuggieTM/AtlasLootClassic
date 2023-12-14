@@ -41,6 +41,7 @@ local PRICE_EXTRA_ITTYPE = data:AddExtraItemTableType("Price")
 local SET_EXTRA_ITTYPE = data:AddExtraItemTableType("Set")
 
 local PVP_CONTENT = data:AddContentType(AL["Battlegrounds"], ATLASLOOT_PVP_COLOR)
+local PVP_ZONE = data:AddContentType(AL["PvP Zone"], ATLASLOOT_RAID10_COLOR)
 local GENERAL_CONTENT = data:AddContentType(GENERAL, ATLASLOOT_RAID40_COLOR)
 
 local KEYS = {	-- Keys
@@ -447,39 +448,45 @@ data["WarsongGulch"] = {
 				{ 1, "f890rep5" },
 				{ 2, "INV_Box_01", nil, "20 - 29", nil }, -- WSGRepFriendly2029
 				{ 3, 211498 }, --Trainee's Sentinel Nightsaber
-				{ 4,  21568 }, -- Rune of Duty
-				{ 5,  21566 }, -- Rune of Perfection
-				{ 6,  19062 }, -- Warsong Gulch Field Ration
-				{ 7,  19068 }, -- Warsong Gulch Silk Bandage
-				{ 9, "INV_Box_01", nil, "30 - 39", nil }, -- WSGRepFriendly3039
-				{ 10,  19061 }, -- Warsong Gulch Iron Ration
-				{ 11,  19067 }, -- Warsong Gulch Mageweave Bandage
-				{ 12,  17349 }, -- Superior Healing Draught
-				{ 13, 17352 }, -- Superior Mana Draught
-				{ 17, "INV_Box_01", nil, "40 - 49", nil }, -- WSGRepFriendly4049
-				{ 18,  21567 }, -- Rune of Duty
-				{ 19,  21565 }, -- Rune of Perfection
-				{ 20,  19060 }, -- Warsong Gulch Enriched Ration
-				{ 21,  19066 }, -- Warsong Gulch Runecloth Bandage
+				{ 4, 211500 }, --Resilient Cloth Headband
+				{ 5, 211856 }, --Resilient Mail Coif
+				{ 6, 211857 }, --Resilient Leather Mask
+				{ 7,  21568 }, -- Rune of Duty
+				{ 8,  21566 }, -- Rune of Perfection
+				{ 9,  19062 }, -- Warsong Gulch Field Ration
+				{ 10,  19068 }, -- Warsong Gulch Silk Bandage
+				{ 16, "INV_Box_01", nil, "30 - 39", nil }, -- WSGRepFriendly3039
+				{ 17,  19061 }, -- Warsong Gulch Iron Ration
+				{ 18,  19067 }, -- Warsong Gulch Mageweave Bandage
+				{ 19,  17349 }, -- Superior Healing Draught
+				{ 20, 17352 }, -- Superior Mana Draught
+				{ 22, "INV_Box_01", nil, "40 - 49", nil }, -- WSGRepFriendly4049
+				{ 23,  21567 }, -- Rune of Duty
+				{ 24,  21565 }, -- Rune of Perfection
+				{ 25,  19060 }, -- Warsong Gulch Enriched Ration
+				{ 26,  19066 }, -- Warsong Gulch Runecloth Bandage
 			},
 			[HORDE_DIFF] = {
 				{ 1, "f889rep5" },
 				{ 2, "INV_Box_01", nil, "20 - 29", nil }, -- WSGRepFriendly2029
 				{ 3, 211499 }, --Trainee's Outrider Wolf
-				{ 4, 21568 }, -- Rune of Duty
-				{ 5, 21566 }, -- Rune of Perfection
-				{ 6, 19062 }, -- Warsong Gulch Field Ration
-				{ 7, 19068 }, -- Warsong Gulch Silk Bandage
-				{ 9, "INV_Box_01", nil, "30 - 39", nil }, -- WSGRepFriendly3039
-				{ 10, 19061 }, -- Warsong Gulch Iron Ration
-				{ 11, 19067 }, -- Warsong Gulch Mageweave Bandage
-				{ 12, 17349 }, -- Superior Healing Draught
-				{ 13, 17352 }, -- Superior Mana Draught
-				{ 17, "INV_Box_01", nil, "40 - 49", nil }, -- WSGRepFriendly4049
-				{ 18, 21567 }, -- Rune of Duty
-				{ 19, 21565 }, -- Rune of Perfection
-				{ 20, 19060 }, -- Warsong Gulch Enriched Ration
-				{ 21, 19066 }, -- Warsong Gulch Runecloth Bandage
+				{ 4, 211500 }, --Resilient Cloth Headband
+				{ 5, 211856 }, --Resilient Mail Coif
+				{ 6, 211857 }, --Resilient Leather Mask
+				{ 7, 21568 }, -- Rune of Duty
+				{ 8, 21566 }, -- Rune of Perfection
+				{ 9, 19062 }, -- Warsong Gulch Field Ration
+				{ 10, 19068 }, -- Warsong Gulch Silk Bandage
+				{ 16, "INV_Box_01", nil, "30 - 39", nil }, -- WSGRepFriendly3039
+				{ 17, 19061 }, -- Warsong Gulch Iron Ration
+				{ 18, 19067 }, -- Warsong Gulch Mageweave Bandage
+				{ 19, 17349 }, -- Superior Healing Draught
+				{ 20, 17352 }, -- Superior Mana Draught
+				{ 22, "INV_Box_01", nil, "40 - 49", nil }, -- WSGRepFriendly4049
+				{ 23, 21567 }, -- Rune of Duty
+				{ 24, 21565 }, -- Rune of Perfection
+				{ 25, 19060 }, -- Warsong Gulch Enriched Ration
+				{ 26, 19066 }, -- Warsong Gulch Runecloth Bandage
 			},
 		},
 		PVP_RANKS,
@@ -699,6 +706,31 @@ data["ArathiBasin"] = {
 		},
 		PVP_RANKS,
 	},
+}
+
+data["Ashenvale"] = {
+	MapID = 331,
+	ContentType = PVP_ZONE,
+	LoadDifficulty = LOAD_DIFF,
+	ContentPhase = 1,
+	items = {
+		{ 
+			name = "Ashenvale",
+			[ALLIANCE_DIFF] = {
+				{ 1, 211498 }, --Trainee's Sentinel Nightsaber
+				{ 3, 211500 }, --Resilient Cloth Headband
+				{ 4, 211856 }, --Resilient Mail Coif
+				{ 5, 211857 }, --Resilient Leather Mask
+				
+			},
+			[HORDE_DIFF] = {
+				{ 1, 211499 }, --Trainee's Outrider Wolf
+				{ 3, 211500 }, --Resilient Cloth Headband
+				{ 4, 211856 }, --Resilient Mail Coif
+				{ 5, 211857 }, --Resilient Leather Mask
+			},
+		},
+	}
 }
 
 data["ClassSets"] = {
