@@ -991,124 +991,124 @@ data["Gnomeregan"] = {
 	LoadDifficulty = NORMAL_DIFF,
 	LevelRange = GetForVersion({19, 29, 38},{15, 25, 28}),
 	items = {
-		{ -- GnTechbot
-			name = AL["Techbot"],
-			npcID = 6231,
-			Level = 26,
-			DisplayIDs = {{7288}},
-			[NORMAL_DIFF] = {
-				{ 1,  9444 }, -- Techbot CPU Shell
-			},
-		},
-		{ -- GnGrubbis
-			name = AL["Grubbis"],
-			npcID = 7361,
-			Level = GetForVersion(32,28),
-			DisplayIDs = {{6533}},
-			AtlasMapBossID = 1,
-			[NORMAL_DIFF] = {
-				{ 1,  9445 }, -- Grubbis Paws
-			},
-		},
-		{ -- GnViscousFallout
-			name = AL["Viscous Fallout"],
-			npcID = 7079,
-			Level = GetForVersion(30,28),
-			DisplayIDs = {{5497}},
-			AtlasMapBossID = 4,
-			[NORMAL_DIFF] = {
-				{ 1,  9454 }, -- Acidic Walkers
-				{ 2,  9453 }, -- Toxic Revenger
-				{ 3,  9452 }, -- Hydrocane
-			},
-		},
-		{ -- GnElectrocutioner6000
-			name = AL["Electrocutioner 6000"],
-			npcID = 6235,
-			Level = GetForVersion(32,28),
-			DisplayIDs = {{6915}},
-			AtlasMapBossID = 5,
-			[NORMAL_DIFF] = {
-				{ 1,  9447 }, -- Electrocutioner Lagnut
-				{ 2,  9446 }, -- Electrocutioner Leg
-				{ 4,  9448 }, -- Spidertank Oilrag
-				{ 6,  6893 }, -- Workshop Key
-			},
-		},
-		{ -- GnCrowdPummeler960
-			name = AL["Crowd Pummeler 9-60"],
-			npcID = 6229,
-			Level = GetForVersion(32,28),
-			DisplayIDs = {{6774}},
-			AtlasMapBossID = 6,
-			[NORMAL_DIFF] = {
-				{ 1,  9449 }, -- Manual Crowd Pummeler
-				{ 3,  9450 }, -- Gnomebot Operating Boots
-			},
-		},
-		{ -- GnDIAmbassador
-			name = AL["Dark Iron Ambassador"],
-			npcID = 6228,
-			Level = GetForVersion(33,28),
-			DisplayIDs = {{6669}},
-			AtlasMapBossID = 7,
-			specialType = "rare",
-			[NORMAL_DIFF] = {
-				{ 1,  9455 }, -- Emissary Cuffs
-				{ 2,  9456 }, -- Glass Shooter
-				{ 3,  9457 }, -- Royal Diplomatic Scepter
-			},
-		},
-		{ -- GnMekgineerThermaplugg
-			name = AL["Mekgineer Thermaplugg"],
-			npcID = 7800,
-			Level = GetForVersion(34,28),
-			DisplayIDs = {{6980}},
-			AtlasMapBossID = 8,
-			[NORMAL_DIFF] = {
-				{ 1,  9492 }, -- Electromagnetic Gigaflux Reactivator
-				{ 2,  9461 }, -- Charged Gear
-				{ 3,  9458 }, -- Thermaplugg's Central Core
-				{ 4,  9459 }, -- Thermaplugg's Left Arm
-				{ 16, 4415 }, -- Schematic: Craftsman's Monocle
-				--{ 17, 4393 }, -- Craftsman's Monocle
-				{ 17, 4413 }, -- Schematic: Discombobulator Ray
-				--{ 20, 4388 }, -- Discombobulator Ray
-				{ 18, 4411 }, -- Schematic: Flame Deflector
-				--{ 23, 4376 }, -- Flame Deflector
-				{ 19, 7742 }, -- Schematic: Gnomish Cloaking Device
-				--{ 26, 4397 }, -- Gnomish Cloaking Device
-				{ 20, 11828 }, -- Schematic: Pet Bombling
-				--{ 29, 11825 }, -- Pet Bombling
-			},
-		},
-		{ -- GnTrash
-			name = AL["Trash"],
-			ExtraList = true,
-			[NORMAL_DIFF] = {
-				{ 1,  9508 }, -- Mechbuilder's Overalls
-				{ 2,  9491 }, -- Hotshot Pilot's Gloves
-				{ 3,  9509 }, -- Petrolspill Leggings
-				{ 4,  9510 }, -- Caverndeep Trudgers
-				{ 5,  9487 }, -- Hi-tech Supergun
-				{ 6,  9485 }, -- Vibroblade
-				{ 7,  9488 }, -- Oscillating Power Hammer
-				{ 8,  9486 }, -- Supercharger Battle Axe
-				{ 9,  9490 }, -- Gizmotron Megachopper
-				{ 11, 9489 }, -- Gyromatic Icemaker
-				{ 12, 11827 }, -- Schematic: Lil' Smoky
-				--{ 15, 11826 }, -- Lil' Smoky
-				{ 16, 9327 }, -- Security DELTA Data Access Card
-				{ 18, 7191 }, -- Fused Wiring
-				{ 19, 9308 }, -- Grime-Encrusted Object
-				{ 20, 9326 }, -- Grime-Encrusted Ring
-				{ 22, 9279 }, -- White Punch Card
-				{ 23, 9280 }, -- Yellow Punch Card
-				{ 24, 9282 }, -- Blue Punch Card
-				{ 25, 9281 }, -- Red Punch Card
-				{ 26, 9316 }, -- Prismatic Punch Card
-			},
-		},
+    		{ -- GnTechbot
+    			name = AL["Techbot"],
+    			npcID = 6231,
+    			Level = 26,
+    			DisplayIDs = {{7288}},
+    			[NORMAL_DIFF] = {
+    				{ 1,  9444 }, -- Techbot CPU Shell
+    			},
+    		},
+    		{ -- GnGrubbis
+    			name = AL["Grubbis"],
+    			npcID = 7361,
+    			Level = GetForVersion(32,28),
+    			DisplayIDs = {{6533}},
+    			AtlasMapBossID = 1,
+    			[NORMAL_DIFF] = {
+    				{ 1,  9445 }, -- Grubbis Paws
+    			},
+    		},
+    		{ -- GnViscousFallout
+    			name = AL["Viscous Fallout"],
+    			npcID = 7079,
+    			Level = GetForVersion(30,28),
+    			DisplayIDs = {{5497}},
+    			AtlasMapBossID = 4,
+    			[NORMAL_DIFF] = {
+    				{ 1,  9454 }, -- Acidic Walkers
+    				{ 2,  9453 }, -- Toxic Revenger
+    				{ 3,  9452 }, -- Hydrocane
+    			},
+    		},
+    		{ -- GnElectrocutioner6000
+    			name = AL["Electrocutioner 6000"],
+    			npcID = 6235,
+    			Level = GetForVersion(32,28),
+    			DisplayIDs = {{6915}},
+    			AtlasMapBossID = 5,
+    			[NORMAL_DIFF] = {
+    				{ 1,  9447 }, -- Electrocutioner Lagnut
+    				{ 2,  9446 }, -- Electrocutioner Leg
+    				{ 4,  9448 }, -- Spidertank Oilrag
+    				{ 6,  6893 }, -- Workshop Key
+    			},
+    		},
+    		{ -- GnCrowdPummeler960
+    			name = AL["Crowd Pummeler 9-60"],
+    			npcID = 6229,
+    			Level = GetForVersion(32,28),
+    			DisplayIDs = {{6774}},
+    			AtlasMapBossID = 6,
+    			[NORMAL_DIFF] = {
+    				{ 1,  9449 }, -- Manual Crowd Pummeler
+    				{ 3,  9450 }, -- Gnomebot Operating Boots
+    			},
+    		},
+    		{ -- GnDIAmbassador
+    			name = AL["Dark Iron Ambassador"],
+    			npcID = 6228,
+    			Level = GetForVersion(33,28),
+    			DisplayIDs = {{6669}},
+    			AtlasMapBossID = 7,
+    			specialType = "rare",
+    			[NORMAL_DIFF] = {
+    				{ 1,  9455 }, -- Emissary Cuffs
+    				{ 2,  9456 }, -- Glass Shooter
+    				{ 3,  9457 }, -- Royal Diplomatic Scepter
+    			},
+    		},
+    		{ -- GnMekgineerThermaplugg
+    			name = AL["Mekgineer Thermaplugg"],
+    			npcID = 7800,
+    			Level = GetForVersion(34,28),
+    			DisplayIDs = {{6980}},
+    			AtlasMapBossID = 8,
+    			[NORMAL_DIFF] = {
+    				{ 1,  9492 }, -- Electromagnetic Gigaflux Reactivator
+    				{ 2,  9461 }, -- Charged Gear
+    				{ 3,  9458 }, -- Thermaplugg's Central Core
+    				{ 4,  9459 }, -- Thermaplugg's Left Arm
+    				{ 16, 4415 }, -- Schematic: Craftsman's Monocle
+    				--{ 17, 4393 }, -- Craftsman's Monocle
+    				{ 17, 4413 }, -- Schematic: Discombobulator Ray
+    				--{ 20, 4388 }, -- Discombobulator Ray
+    				{ 18, 4411 }, -- Schematic: Flame Deflector
+    				--{ 23, 4376 }, -- Flame Deflector
+    				{ 19, 7742 }, -- Schematic: Gnomish Cloaking Device
+    				--{ 26, 4397 }, -- Gnomish Cloaking Device
+    				{ 20, 11828 }, -- Schematic: Pet Bombling
+    				--{ 29, 11825 }, -- Pet Bombling
+    			},
+    		},
+    		{ -- GnTrash
+    			name = AL["Trash"],
+    			ExtraList = true,
+    			[NORMAL_DIFF] = {
+    				{ 1,  9508 }, -- Mechbuilder's Overalls
+    				{ 2,  9491 }, -- Hotshot Pilot's Gloves
+    				{ 3,  9509 }, -- Petrolspill Leggings
+    				{ 4,  9510 }, -- Caverndeep Trudgers
+    				{ 5,  9487 }, -- Hi-tech Supergun
+    				{ 6,  9485 }, -- Vibroblade
+    				{ 7,  9488 }, -- Oscillating Power Hammer
+    				{ 8,  9486 }, -- Supercharger Battle Axe
+    				{ 9,  9490 }, -- Gizmotron Megachopper
+    				{ 11, 9489 }, -- Gyromatic Icemaker
+    				{ 12, 11827 }, -- Schematic: Lil' Smoky
+    				--{ 15, 11826 }, -- Lil' Smoky
+    				{ 16, 9327 }, -- Security DELTA Data Access Card
+    				{ 18, 7191 }, -- Fused Wiring
+    				{ 19, 9308 }, -- Grime-Encrusted Object
+    				{ 20, 9326 }, -- Grime-Encrusted Ring
+    				{ 22, 9279 }, -- White Punch Card
+    				{ 23, 9280 }, -- Yellow Punch Card
+    				{ 24, 9282 }, -- Blue Punch Card
+    				{ 25, 9281 }, -- Red Punch Card
+    				{ 26, 9316 }, -- Prismatic Punch Card
+    			},
+    		},
 
 	},
 }
@@ -7249,6 +7249,76 @@ data["BlackfathomDeepsRaid"] = {
 				{ 26,  209688 }, -- Bael Modan Blunderbuss
 			},
 		},
+		BFD_SET,
+		BFD_QUEST_REWARDS
+	},
+}
+data["GnomereganRaid"] = {
+	MapID = 721,
+	InstanceID = 48,
+	ContentType = RAID10_CONTENT,
+	LoadDifficulty = RAID10_DIFF,
+	GetForVersion({15, 24, 32}, {19, 22, 24}),
+	items = {
+        { -- GnGrubbis
+            name = AL["Grubbis"],
+            npcID = 7361,
+            DisplayIDs = {{6533}},
+            [NORMAL_DIFF] = {
+                { 1,  9445 }, -- Grubbis Paws
+            },
+        },
+        { -- GnViscousFallout
+            name = AL["Viscous Fallout"],
+            npcID = 7079,
+            DisplayIDs = {{5497}},
+            [NORMAL_DIFF] = {
+                { 1,  9454 }, -- Acidic Walkers
+                { 2,  9453 }, -- Toxic Revenger
+                { 3,  9452 }, -- Hydrocane
+            },
+        },
+        { -- GnElectrocutioner6000
+            name = AL["Electrocutioner 6000"],
+            npcID = 6235,
+            DisplayIDs = {{6915}},
+            [NORMAL_DIFF] = {
+                { 1,  9447 }, -- Electrocutioner Lagnut
+                { 2,  9446 }, -- Electrocutioner Leg
+                { 4,  9448 }, -- Spidertank Oilrag
+                { 6,  6893 }, -- Workshop Key
+            },
+        },
+        { -- GnCrowdPummeler960
+            name = AL["Crowd Pummeler 9-60"],
+            npcID = 6229,
+            DisplayIDs = {{6774}},
+            [NORMAL_DIFF] = {
+                { 1,  9449 }, -- Manual Crowd Pummeler
+                { 3,  9450 }, -- Gnomebot Operating Boots
+            },
+        },
+        { -- GnMekgineerThermaplugg
+            name = AL["Mekgineer Thermaplugg"],
+            npcID = 7800,
+            DisplayIDs = {{6980}},
+            [NORMAL_DIFF] = {
+                { 1,  9492 }, -- Electromagnetic Gigaflux Reactivator
+                { 2,  9461 }, -- Charged Gear
+                { 3,  9458 }, -- Thermaplugg's Central Core
+                { 4,  9459 }, -- Thermaplugg's Left Arm
+                { 16, 4415 }, -- Schematic: Craftsman's Monocle
+                --{ 17, 4393 }, -- Craftsman's Monocle
+                { 17, 4413 }, -- Schematic: Discombobulator Ray
+                --{ 20, 4388 }, -- Discombobulator Ray
+                { 18, 4411 }, -- Schematic: Flame Deflector
+                --{ 23, 4376 }, -- Flame Deflector
+                { 19, 7742 }, -- Schematic: Gnomish Cloaking Device
+                --{ 26, 4397 }, -- Gnomish Cloaking Device
+                { 20, 11828 }, -- Schematic: Pet Bombling
+                --{ 29, 11825 }, -- Pet Bombling
+            },
+        },
 		BFD_SET,
 		BFD_QUEST_REWARDS
 	},

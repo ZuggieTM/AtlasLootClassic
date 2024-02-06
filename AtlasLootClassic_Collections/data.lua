@@ -513,6 +513,20 @@ data["SeasonOfDiscoverySets"] = {
                 { 7, 1577 }, -- Blackfathom Avenger's Mail
 			},
 		},
+		{ -- Gnomeregan Tier sets
+            name = format(AL["Gnomeregan Sets"]),
+            [NORMAL_DIFF] = {
+            	{ 1, 1584 }-- Irradiated Garments
+            	{ 3, 1588 }-- Hyperconductive Mender's Meditation
+            	{ 16, 1587 }-- Hyperconductive Wizard's Attire
+            	{ 5, 1586 }-- Insulated Sorceror's Leathers
+            	{ 20, 1585 }-- Insulated Leathers
+            	{ 7, 1590 }-- Electromantic Devastator's Mail
+            	{ 22, 1591 }-- Electromantic Stormbringer's Chain
+            	{ 9, 1589 }-- H.A.Z.A.R.D. Suit
+            	{ 24, 1592 }-- Shockforged Warplate
+            },
+        },
 	}
 }
 
