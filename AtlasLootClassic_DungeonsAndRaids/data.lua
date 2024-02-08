@@ -308,6 +308,26 @@ local BFD_QUEST_REWARDS = {
 	}
 }
 
+local GN_SET = {
+	name = AL["Gnomeregan Tier Sets"],
+	ExtraList = true,
+	LoadDifficulty = RAID10_DIFF,
+	TableType = SET_ITTYPE,
+	IgnoreAsSource = true,
+	CoinTexture = "HORDE",
+	[RAID10_DIFF] = {
+		{ 1, 1584 }-- Irradiated Garments
+        { 3, 1588 }-- Hyperconductive Mender's Meditation
+        { 16, 1587 }-- Hyperconductive Wizard's Attire
+        { 5, 1586 }-- Insulated Sorceror's Leathers
+        { 20, 1585 }-- Insulated Leathers
+        { 7, 1590 }-- Electromantic Devastator's Mail
+        { 22, 1591 }-- Electromantic Stormbringer's Chain
+        { 9, 1589 }-- H.A.Z.A.R.D. Suit
+        { 24, 1592 }-- Shockforged Warplate
+	},
+}
+
 data["Ragefire"] = {
 	MapID = 2437,
 	InstanceID = 389,
@@ -7319,7 +7339,7 @@ data["GnomereganRaid"] = {
                 --{ 29, 11825 }, -- Pet Bombling
             },
         },
-		BFD_SET,
+		GN_SET,
 		BFD_QUEST_REWARDS
 	},
 }
