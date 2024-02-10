@@ -1271,8 +1271,8 @@ data["ScarletMonasteryGraveyard"] = {
 			specialType = "rare",
 			[NORMAL_DIFF] = {
 				{ 1,  7709 }, -- Blighted Leggings
-				{ 2,  7708 }, -- Necrotic Wand
-				{ 3,  7731 }, -- Ghostshard Talisman
+				{ 2,  217295 }, -- Necrotic Wand
+				{ 3,  217296 }, -- Ghostshard Talisman
 			},
 		},
 		{ -- SMFallenChampion
@@ -1283,7 +1283,7 @@ data["ScarletMonasteryGraveyard"] = {
 			specialType = "rare",
 			AtlasMapBossID = "1'",
 			[NORMAL_DIFF] = {
-				{ 1,  7691 }, -- Embalmed Shroud
+				{ 1,  217294 }, -- Embalmed Shroud
 				{ 2,  7690 }, -- Ebon Vise
 				{ 3,  7689 }, -- Morbid Dawn
 			},
@@ -1411,9 +1411,9 @@ data["ScarletMonasteryLibrary"] = {
 			AtlasMapBossID = 2,
 			[NORMAL_DIFF] = {
 				{ 1,  7714 }, -- Hypnotic Blade
-				{ 2,  7713 }, -- Illusionary Rod
-				{ 4,  7712 }, -- Mantle of Doan
-				{ 5,  7711 }, -- Robe of Doan
+				{ 2,  217299 }, -- Illusionary Rod
+				{ 4,  217298 }, -- Mantle of Doan
+				{ 5,  217297 }, -- Robe of Doan
 				AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM, { 16,  34227 }), -- Deadman's Hand
 			},
 		},
@@ -1556,7 +1556,7 @@ data["ScarletMonasteryCathedral"] = {
 				{ 1,  7724 }, -- Gauntlets of Divinity
 				{ 2,  10330 }, -- Scarlet Leggings
 				{ 3,  7726 }, -- Aegis of the Scarlet Commander
-				{ 4,  7723 }, -- Mograine's Might
+				{ 4,  217302 }, -- Mograine's Might
 			},
 		},
 		{ -- SMWhitemane
@@ -1566,8 +1566,8 @@ data["ScarletMonasteryCathedral"] = {
 			DisplayIDs = {{2043}},
 			AtlasMapBossID = 3,
 			[NORMAL_DIFF] = {
-				{ 1,  7720 }, -- Whitemane's Chapeau
-				{ 2,  7722 }, -- Triune Amulet
+				{ 1,  217300 }, -- Whitemane's Chapeau
+				{ 2,  217301 }, -- Triune Amulet
 				{ 3,  7721 }, -- Hand of Righteousness
 			},
 		},
@@ -1625,7 +1625,7 @@ data["RazorfenDowns"] = {
 			DisplayIDs = {{7845}},
 			AtlasMapBossID = 1,
 			[NORMAL_DIFF] = {
-				{ 1,  10776 }, -- Silky Spider Cape
+				{ 1,  217293 }, -- Silky Spider Cape
 				{ 2,  10775 }, -- Carapace of Tuten'kash
 				{ 3,  10777 }, -- Arachnid Gloves
 			},
@@ -1637,9 +1637,9 @@ data["RazorfenDowns"] = {
 			DisplayIDs = {{8055}},
 			AtlasMapBossID = 3,
 			[NORMAL_DIFF] = {
-				{ 1,  10769 }, -- Glowing Eye of Mordresh
-				{ 2,  10771 }, -- Deathmage Sash
-				{ 3,  10770 }, -- Mordresh's Lifeless Skull
+				{ 1,  217290 }, -- Glowing Eye of Mordresh
+				{ 2,  217292 }, -- Deathmage Sash
+				{ 3,  217291 }, -- Mordresh's Lifeless Skull
 			},
 		},
 		{ -- RFDGlutton
@@ -1674,8 +1674,8 @@ data["RazorfenDowns"] = {
 			AtlasMapBossID = 6,
 			[NORMAL_DIFF] = {
 				{ 1,  10763 }, -- Icemetal Barbute
-				{ 2,  10762 }, -- Robes of the Lich
-				{ 3,  10764 }, -- Deathchill Armor
+				{ 2,  217288 }, -- Robes of the Lich
+				{ 3,  217289 }, -- Deathchill Armor
 				{ 4,  10761 }, -- Coldrage Dagger
 				{ 6,  10765 }, -- Bonefingers
 			},
@@ -1790,10 +1790,10 @@ data["Uldaman"] = {
 			DisplayIDs = {{5945}},
 			AtlasMapBossID = 3,
 			[NORMAL_DIFF] = {
-				{ 1,  9389 }, -- Revelosh's Spaulders
-				{ 2,  9388 }, -- Revelosh's Armguards
-				{ 3,  9390 }, -- Revelosh's Gloves
-				{ 4,  9387 }, -- Revelosh's Boots
+				{ 1,  217307 }, -- Revelosh's Spaulders
+				{ 2,  217305 }, -- Revelosh's Armguards
+				{ 3,  217304 }, -- Revelosh's Gloves
+				{ 4,  217306 }, -- Revelosh's Boots
 				{ 6,  7741 }, -- The Shaft of Tsol
 			},
 		},
@@ -1805,7 +1805,7 @@ data["Uldaman"] = {
 			AtlasMapBossID = 4,
 			[NORMAL_DIFF] = {
 				{ 1,  9409 }, -- Ironaya's Bracers
-				{ 2,  9407 }, -- Stoneweaver Leggings
+				{ 2,  217303 }, -- Stoneweaver Leggings
 				{ 3,  9408 }, -- Ironshod Bludgeon
 			},
 		},

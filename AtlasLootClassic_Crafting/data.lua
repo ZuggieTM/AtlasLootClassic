@@ -303,7 +303,7 @@ data["Blacksmithing"] = {
 				{ 18, 16985 }, --Corruption / 58
 				{ 19, 10015 }, --Truesilver Champion / 52
 				{ 20, 3497 }, --Frost Tiger Blade / 40
-				{ 21, 3496 }, --Moonsteel Broadsword / 36
+				{ 21, 439128 }, --Moonsteel Broadsword / 36
 				{ 22, 9986 }, --Bronze Greatsword / 26
 				{ 23, 3292 }, --Heavy Copper Broadsword / 19
 				{ 24, 9983 }, --Copper Claymore / 11
@@ -322,7 +322,7 @@ data["Blacksmithing"] = {
 				{ 1, 16728 }, --Helm of the Great Chief / 61
 				{ 2, 16659 }, --Radiant Circlet / 59
 				{ 3, 9961 }, --Mithril Coif / 46
-				{ 4, 3503 }, --Golden Scale Coif / 38
+				{ 4, 439126 }, --Golden Scale Coif / 38
 				{ 5, 9814 }, --Barbaric Iron Helm / 35
 				{ 6, 3502 }, --Green Iron Helm / 34
 			},
@@ -346,7 +346,7 @@ data["Blacksmithing"] = {
 				{ 1, 24137 }, --Bloodsoul Shoulders / 65
 				{ 2, 20873 }, --Fiery Chain Shoulders / 62
 				{ 3, 9966 }, --Mithril Scale Shoulders / 47
-				{ 4, 3505 }, --Golden Scale Shoulders / 35
+				{ 4, 439130 }, --Golden Scale Shoulders / 35
 				{ 5, 9811 }, --Barbaric Iron Shoulders / 32
 				{ 6, 3504 }, --Green Iron Shoulders / 32
 				{ 7, 3330 }, --Silvered Bronze Shoulders / 25
@@ -372,7 +372,7 @@ data["Blacksmithing"] = {
 				{ 4, 15293 }, --Dark Iron Mail / 56
 				{ 5, 16650 }, --Wildthorn Mail / 54
 				{ 6, 16648 }, --Radiant Breastplate / 54
-				{ 7, 3511 }, --Golden Scale Cuirass / 40
+				{ 7, 439124 }, --Golden Scale Cuirass / 40
 				{ 8, 9916 }, --Steel Breastplate / 40
 				{ 9, 3508 }, --Green Iron Hauberk / 36
 				{ 10, 429348 }, --Shifting Silver Breastplate / 30
@@ -407,7 +407,7 @@ data["Blacksmithing"] = {
 			[MAIL_DIFF] = {
 				{ 1, 23629 }, --Heavy Timbermaw Boots / 64
 				{ 2, 16656 }, --Radiant Boots / 58
-				{ 3, 3515 }, --Golden Scale Boots / 40
+				{ 3, 439122 }, --Golden Scale Boots / 40
 				{ 4, 3513 }, --Polished Steel Boots / 37
 				{ 5, 9818 }, --Barbaric Iron Boots / 36
 				{ 6, 3334 }, --Green Iron Boots / 29
@@ -430,7 +430,7 @@ data["Blacksmithing"] = {
 				{ 2, 24138 }, --Bloodsoul Gauntlets / 65
 				{ 3, 16661 }, --Storm Gauntlets / 59
 				{ 4, 16654 }, --Radiant Gloves / 57
-				{ 5, 11643 }, --Golden Scale Gauntlets / 41
+				{ 5, 439120 }, --Golden Scale Gauntlets / 41
 				{ 6, 9820 }, --Barbaric Iron Gloves / 37
 				{ 7, 3336 }, --Green Iron Gauntlets / 30
 				{ 8, 3333 }, --Silvered Bronze Gauntlets / 27
@@ -456,7 +456,7 @@ data["Blacksmithing"] = {
 				{ 1, 16725 }, --Radiant Leggings / 61
 				{ 2, 9931 }, --Mithril Scale Pants / 42
 				{ 3, 9957 }, --Orcish War Leggings / 42
-				{ 4, 3507 }, --Golden Scale Leggings / 34
+				{ 4, 439132 }, --Golden Scale Leggings / 34
 				{ 5, 3506 }, --Green Iron Leggings / 31
 				{ 6, 12259 }, --Silvered Bronze Leggings / 31
 				{ 7, 2668 }, --Rough Bronze Leggings / 21
@@ -590,7 +590,7 @@ data["Enchanting"] = {
 		{
 			name = ALIL["Wands"],
 			[NORMAL_DIFF] = {
-				{ 1, 14810 }, --Greater Mystic Wand / 195
+				{ 1, 439134 }, --Greater Mystic Wand / 195
 				{ 2, 14809 }, --Lesser Mystic Wand / 175
 				{ 3, 14807 }, --Greater Magic Wand / 110
 				{ 4, 14293 }, --Lesser Magic Wand / 75
@@ -1034,7 +1034,7 @@ data["Tailoring"] = {
 				{ 6, 18422 }, --Cloak of Fire / 55
 				{ 7, 18409 }, --Runecloth Cloak / 53
 				{ 8, 3862 }, --Icy Cloak / 40
-				{ 9, 3861 }, --Long Silken Cloak / 37
+				{ 9, 439094 }, --Long Silken Cloak / 37
 				{ 10, 8789 }, --Crimson Silk Cloak / 36
 				{ 11, 8786 }, --Azure Silk Cloak / 35
 				{ 12, 3844 }, --Heavy Woolen Cloak / 21
@@ -1059,7 +1059,7 @@ data["Tailoring"] = {
 				{ 10, 12072 }, --Black Mageweave Headband / 46
 				{ 11, 12059 }, --White Bandit Mask / 43
 				{ 12, 3858 }, --Shadow Hood / 34
-				{ 13, 3857 }, --Enchanter's Cowl / 33
+				{ 13, 439102 }, --Enchanter's Cowl / 33
 				{ 14, 8762 }, --Silk Headband / 32
 				{ 15, 8760 }, --Azure Silk Hood / 29
 			}
@@ -1077,7 +1077,7 @@ data["Tailoring"] = {
 				{ 8, 12078 }, --Red Mageweave Shoulders / 47 / 250
 				{ 9, 12076 }, --Shadoweave Shoulders / 47 / 250
 				{ 10, 12074 }, --Black Mageweave Shoulders / 46 / 245
-				{ 11, 8793 }, --Crimson Silk Shoulders / 38 / 210
+				{ 11, 439093 }, --Crimson Silk Shoulders / 38 / 210
 				{ 12, 8795 }, --Azure Shoulders / 38 / 210
 				{ 13, 8774 }, --Green Silken Shoulders / 36 / 200
 				{ 14, 3849 }, --Reinforced Woolen Shoulders / 24 / 145
@@ -1112,13 +1112,13 @@ data["Tailoring"] = {
 				{ 23, 12056 }, --Red Mageweave Vest / 43
 				{ 24, 12055 }, --Shadoweave Robe / 43
 				{ 25, 12050 }, --Black Mageweave Robe / 42
-				{ 26, 12048 }, --Black Mageweave Vest / 41
-				{ 27, 8802 }, --Crimson Silk Robe / 41
+				{ 26, 439086 }, --Black Mageweave Vest / 41
+				{ 27, 439085 }, --Crimson Silk Robe / 41
 				{ 28, 8770 }, --Robe of Power / 38
 				{ 29, 8791 }, --Crimson Silk Vest / 37
 				{ 30, 12091 }, --White Wedding Dress / 35
 				{ 101, 12093 }, --Tuxedo Jacket / 35
-				{ 102, 8764 }, --Earthen Vest / 34
+				{ 102, 439100 }, --Earthen Vest / 34
 				{ 103, 8784 }, --Green Silk Armor / 33
 				{ 104, 6692 }, --Robes of Arcana / 30
 				{ 105, 3859 }, --Azure Silk Vest / 30
@@ -1153,7 +1153,7 @@ data["Tailoring"] = {
 				{ 7, 12088 }, --Cindercloth Boots / 49
 				{ 8, 12082 }, --Shadoweave Boots / 48
 				{ 9, 12073 }, --Black Mageweave Boots / 46
-				{ 10, 3860 }, --Boots of the Enchanter / 35
+				{ 10, 439097 }, --Boots of the Enchanter / 35
 				{ 11, 429351 }, --Extraplanar Spidersilk Boots / 30
 				{ 12, 3856 }, --Spider Silk Slippers / 28
 				{ 13, 3855 }, --Spidersilk Boots / 25
@@ -1208,7 +1208,7 @@ data["Tailoring"] = {
 				{ 11, 18421 }, --Wizardweave Leggings / 55
 				{ 12, 12060 }, --Red Mageweave Pants / 43
 				{ 13, 12052 }, --Shadoweave Pants / 42
-				{ 14, 12049 }, --Black Mageweave Leggings / 41
+				{ 14, 439088 }, --Black Mageweave Leggings / 41
 				{ 15, 8799 }, --Crimson Silk Pantaloons / 39
 				{ 16, 12089 }, --Tuxedo Pants / 35
 				{ 17, 8758 }, --Azure Silk Pants / 28
@@ -1257,9 +1257,9 @@ data["Tailoring"] = {
 				{ 4, 18410 }, --Ghostweave Belt / 53 / 280
 				{ 5, 18402 }, --Runecloth Belt / 51 / 270
 				{ 6, 3864 }, --Star Belt / 40 / 220
-				{ 7, 8797 }, --Earthen Silk Belt / 39 / 215
+				{ 7, 439091 }, --Earthen Silk Belt / 39 / 215
 				{ 8, 3863 }, --Spider Belt / 36 / 200
-				{ 9, 8772 }, --Crimson Silk Belt / 35 / 195
+				{ 9, 439098 }, --Crimson Silk Belt / 35 / 195
 				{ 10, 8766 }, --Azure Silk Belt / 35 / 195
 				{ 11, 3866 }, --Stylish Red Shirt / 22 / 135
 				{ 12, 8776 }, --Linen Belt / 9 / 50
@@ -1358,7 +1358,7 @@ data["Leatherworking"] = {
 				{ 12, 19068 }, --Warbear Harness / 55 / 295
 				{ 13, 10647 }, --Feathered Breastplate / 50 / 270
 				{ 14, 10544 }, --Wild Leather Vest / 45 / 245
-				{ 15, 10520 }, --Big Voodoo Robe / 43 / 235
+				{ 15, 439108 }, --Big Voodoo Robe / 43 / 235
 				{ 16, 10499 }, --Nightscape Tunic / 41 / 225
 				{ 17, 6661 }, --Barbaric Harness / 38 / 210
 				{ 18, 3773 }, --Guardian Armor / 35 / 195
@@ -1390,7 +1390,7 @@ data["Leatherworking"] = {
 				{ 9, 19050 }, --Green Dragonscale Breastplate / 52 / 280
 				{ 10, 10650 }, --Dragonscale Breastplate / 51 / 275
 				{ 11, 10525 }, --Tough Scorpid Breastplate / 44 / 240
-				{ 12, 10511 }, --Turtle Scale Breastplate / 42 / 230
+				{ 12, 439116 }, --Turtle Scale Breastplate / 42 / 230
 			},
 		},
 		{
@@ -1457,7 +1457,7 @@ data["Leatherworking"] = {
 				{ 6, 19064 }, --Heavy Scorpid Gauntlet / 55 / 295
 				{ 7, 10542 }, --Tough Scorpid Gloves / 45 / 245
 				{ 8, 10619 }, --Dragonscale Gauntlets / 45 / 245
-				{ 9, 10509 }, --Turtle Scale Gloves / 41 / 225
+				{ 9, 439118 }, --Turtle Scale Gloves / 41 / 225
 				
 			},
 		},
@@ -1471,7 +1471,7 @@ data["Leatherworking"] = {
 				{ 5, 10632 }, --Helm of Fire / 50 / 270
 				{ 6, 10621 }, --Wolfshead Helm / 45 / 245
 				{ 7, 10546 }, --Wild Leather Helmet / 45 / 245
-				{ 8, 10531 }, --Big Voodoo Mask / 44 / 240
+				{ 8, 439105 }, --Big Voodoo Mask / 44 / 240
 				{ 9, 10507 }, --Nightscape Headband / 41 / 225
 				{ 10, 10490 }, --Comfortable Leather Hat / 40 / 220
 			},
@@ -1498,7 +1498,7 @@ data["Leatherworking"] = {
 				{ 12, 10548 }, --Nightscape Pants / 46 / 250
 				{ 13, 7149 }, --Barbaric Leggings / 34 / 190
 				{ 14, 9195 }, --Dusky Leather Leggings / 33 / 185
-				{ 15, 7147 }, --Guardian Pants / 32 / 180
+				{ 15, 439114 }, --Guardian Pants / 32 / 180
 				{ 16, 7135 }, --Dark Leather Pants / 23 / 140
 				{ 17, 7133 }, --Fine Leather Pants / 21 / 130
 				{ 18, 9068 }, --Light Leather Pants / 19 / 125
@@ -1553,7 +1553,7 @@ data["Leatherworking"] = {
 				{ 9, 3779 }, --Barbaric Belt / 40 / 220
 				{ 10, 9206 }, --Dusky Belt / 39 / 215
 				{ 11, 3778 }, --Gem-studded Leather Belt / 37 / 205
-				{ 12, 3775 }, --Guardian Belt / 34 / 190
+				{ 12, 439112 }, --Guardian Belt / 34 / 190
 				{ 13, 4097 }, --Raptor Hide Belt / 33 / 185
 				{ 14, 3774 }, --Green Leather Belt / 32 / 180
 				{ 15, 3767 }, --Hillman's Belt / 25 / 145
@@ -1574,7 +1574,7 @@ data["Leatherworking"] = {
 				{ 2, 24123 }, --Primal Batskin Bracers / 65 / 320
 				{ 3, 19065 }, --Runic Leather Bracers / 55 / 295
 				{ 4, 19052 }, --Wicked Leather Bracers / 53 / 285
-				{ 5, 3777 }, --Guardian Leather Bracers / 39 / 215
+				{ 5, 439110 }, --Guardian Leather Bracers / 39 / 215
 				{ 6, 9202 }, --Green Whelp Bracers / 38 / 210
 				{ 7, 6705 }, --Murloc Scale Bracers / 38 / 210
 				{ 8, 9201 }, --Dusky Bracers / 37 / 205
